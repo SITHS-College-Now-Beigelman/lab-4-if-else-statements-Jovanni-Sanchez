@@ -6,12 +6,10 @@
 #include <string>
 using namespace std;
 
-const int LOOP_LIMIT = 5; // Caps the amount of loops the program will go for
-
 int main(){
     
     string fruitName; // The name of the user's fruit
-    int numOfLoops = 1; // Starts out at zero and will work its way up to the limit
+    string request2Stop;
     double sugarContentPerCup; // In grams :)
 
     while (numOfLoops <= LOOP_LIMIT)

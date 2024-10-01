@@ -32,7 +32,7 @@ int main(){
         }
         else cout << fruitName << " is a HIGH SUGAR FRUIT." << endl; // If its neither its a HIGH SUGAR FRUIT
 
-        cout << "Do you want to stop?: ";
+        cout << "Do you want to stop? (Y/N): ";
         cin >> request2Stop;
     }
 

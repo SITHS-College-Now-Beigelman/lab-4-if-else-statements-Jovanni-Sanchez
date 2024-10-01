@@ -38,7 +38,7 @@ int main(){
         cin >> request2Stop; // This controls the entire loop, if 'Y' the loop is over, else it keeps going
     }
 
-    cout << "This program is done :)"; // Just to make sure its over
+    cout << "This program is done :D"; // Just to make sure its over
 
     return 0;
 }

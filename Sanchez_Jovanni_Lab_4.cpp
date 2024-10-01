@@ -9,11 +9,11 @@ using namespace std;
 int main(){
     
     string fruitName; // The name of the user's fruit
-    string request2Stop;
+    char request2Stop;
     double sugarContentPerCup; // In grams :)
 
-    while (numOfLoops <= LOOP_LIMIT)
-    {
+    while (request2Stop != 'Y')
+    { 
         cout << "Please enter a fruit name: ";
         cin >> fruitName; // Get the name of the fruit, usefull for statements
 
@@ -32,7 +32,8 @@ int main(){
         }
         else cout << fruitName << " is a HIGH SUGAR FRUIT." << endl; // If its neither its a HIGH SUGAR FRUIT
 
-        numOfLoops++;
+        cout << "Do you want to stop?: ";
+        cin >> request2Stop;
     }
 
     cout << "This program is done :)";
